@@ -48,21 +48,25 @@ Comportarsi bene in situazioni mai viste prima? Ancora no.
 
 Non lo dice un critico esterno. Lo dice il capo scienziato di OpenAI. 🤯
 
-Jakub Pachocki, Chief Scientist di OpenAI, ha pubblicato il 6 settembre un saggio — "An Alien Mind" — con una frase che ha fatto discutere tutto il settore:
+Jakub Pachocki, Chief Scientist di OpenAI, ha pubblicato il 6 settembre sul blog ufficiale dell'azienda un saggio — "An Alien Mind" — con una frase che ha fatto discutere tutto il settore:
 
 "Nessun laboratorio ha risolto allineamento e monitoraggio a un livello sufficiente per continuare a scalare al massimo della velocità in modo responsabile ancora a lungo."
 
-Tradotto: nemmeno chi costruisce questi sistemi è sicuro di saperli tenere sotto controllo mentre diventano più potenti.
+Tradotto: nemmeno chi costruisce questi sistemi è sicuro di saperli tenere sotto controllo mentre diventano più potenti. E lo scrive il capo scienziato della stessa azienda che li costruisce più in fretta di chiunque altro.
 
-Pachocki distingue due tipi di "allineamento": far sì che un'AI provi a fare quello che le chiedi (questo, dice, ce l'abbiamo) — e far sì che un'AI sappia comportarsi bene anche in situazioni mai viste prima, secondo principi generali (questo, dice, ancora no).
+Pachocki distingue due tipi di "allineamento". Il primo: far sì che un'AI provi a fare quello che le chiedi — questo, dice, ce l'abbiamo, più o meno. Il secondo, molto più difficile: far sì che un'AI sappia comportarsi bene anche in situazioni mai viste prima, seguendo principi generali invece di regole imparate a memoria — questo, dice, ancora no.
 
-Il dettaglio più tecnico e più preoccupante: il metodo principale che OpenAI usa per verificare la sicurezza — leggere il "ragionamento" passo-passo del modello — sta diventando meno affidabile proprio nel momento in cui serve di più.
+Nel saggio Pachocki tocca anche un tema che di solito resta nei paper tecnici: il rischio del "recursive self-improvement" — un'AI che migliora se stessa, o le AI successive, più in fretta di quanto gli umani riescano a supervisionare il processo.
+
+Il dettaglio più tecnico e più preoccupante riguarda il "chain-of-thought monitoring" — il metodo principale con cui i laboratori oggi verificano la sicurezza, leggendo il "ragionamento" che il modello scrive passo-passo prima di rispondere. Secondo Pachocki, questo controllo sta diventando meno affidabile proprio via via che i modelli diventano più capaci — l'opposto di quello che servirebbe.
+
+Il saggio non è un mea culpa isolato: è anche un appello agli altri laboratori (Google, Anthropic, Meta) perché adottino standard di sicurezza condivisi, invece di competere solo sulla velocità.
 
 Non è allarmismo. È trasparenza, rara in questo settore. E forse è un motivo in più per fidarsi di chi lo ammette apertamente, non di chi promette che è tutto sotto controllo.
 
 Segui @ainexagent se vuoi capire l'AI senza il gergo da addetti ai lavori, anche quando le notizie sono scomode. 🧠⚡
 
-#IntelligenzaArtificiale #AgentiAI #AI2026 #OpenAI #SicurezzaAI #TechItalia
+#IntelligenzaArtificiale #AgentiAI #AI2026 #OpenAI #SicurezzaAI #TechItalia #AIsafety #AIalignment #ArtificialIntelligence #TechNews #IntelligenzaArtificialeItalia #NotizieTech #AGI #Allineamento #FuturoDelLavoro
 
 ---
 
