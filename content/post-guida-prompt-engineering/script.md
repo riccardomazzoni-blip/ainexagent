@@ -1,100 +1,59 @@
-# Guida — "La guida completa al prompt engineering" (15 slide)
+# Guida — "La guida completa al prompt engineering" (10 slide — versione pubblicata)
+
+**Stato: ✅ pubblicato**
+
+Versione finale a 10 slide (tagliata dalla bozza originale a 15, che superava il limite di
+Instagram di 10 slide per carosello — vedi `script-v1-15slide.md` per il contenuto completo,
+utile per un eventuale post "parte 2" con i template rimasti fuori).
 
 Contenuto "evergreen" ad alto potenziale di salvataggio/condivisione (non legato a una notizia,
 quindi rimane utile e ricondivisibile per mesi). Diverso e più avanzato del post del giorno 4
-("Anatomia di un prompt che funziona", 7 slide, solo i concetti base) — qui ci sono 5 tecniche
-avanzate + 4 template pronti da copiare, pensato esplicitamente per essere salvato e riletto.
+("Anatomia di un prompt che funziona", 7 slide, solo i concetti base).
 
-Stile visivo: stesso sistema "Carta Tecnica". Le slide 9-12 (i template) meritano il trattamento
-"box in evidenza" già usato per il prompt efficace del giorno 4 — testo del template dentro un
-riquadro, facilmente leggibile e "screenshot-abile".
+## Sistema di livelli AI Nex Agent (nuovo, da riusare in tutte le prossime guide)
 
----
+Riprende la tassonomia già introdotta nel post del giorno 2 ("I 3 tipi di agenti AI"), così i
+lettori riconoscono lo schema invece di doverne imparare uno nuovo. Rappresentato visivamente
+con 3 quadratini (pieno/vuoto) accanto all'etichetta, stesso linguaggio grafico dei pallini di
+avanzamento del carosello — nessun nuovo colore introdotto nel sistema "Carta Tecnica".
 
-## Slide 1 — Cover
-**Testo:** GUIDA COMPLETA · 01
-**Titolo:** La guida completa al prompt engineering
-**Sottotitolo (ciano):** Salvala. Ti servirà per mesi →
+- **■□□ Livello 1 — Assistente**: basi, applicabile subito da chiunque, zero esperienza richiesta
+- **■■□ Livello 2 — Ricerca**: richiede aver già capito le basi, introduce tecniche più avanzate
+- **■■■ Livello 3 — Automazione**: avanzato, richiede pratica, tecniche che si combinano tra loro
 
-## Slide 2 — Perché conta
-**Titolo:** Lo stesso identico task, con prompt diversi, dà risultati completamente diversi
-**Testo:** Non è talento, è metodo. Le prossime 13 slide ti danno il metodo — tecniche avanzate e template pronti da copiare, non solo la teoria di base.
+Questa guida è **Livello 2 — Ricerca**: un passo oltre le basi (il post "Anatomia di un prompt"
+del giorno 4 = Livello 1), ma non richiede ancora costruire sistemi complessi (= Livello 3).
+Il badge compare solo sulla cover, sotto il tag "GUIDA COMPLETA · 01".
 
-## Slide 3 — La struttura base (recap veloce)
-**Titolo:** Prima di tutto, i 4 elementi che non mancano mai
-**Testo (4 righe numerate):**
-01 Contesto — chi sei, chi è il destinatario, cosa sa già
-02 Compito — cosa deve fare esattamente, non in generale
-03 Formato — lunghezza, struttura, tono
-04 Vincoli — cosa NON deve fare
-**Nota piccola in basso:** (Se vuoi il dettaglio con esempi prima/dopo, guarda il post "Anatomia di un prompt")
+## Le 10 slide pubblicate (asset finali in questa cartella: gp-01.jpg … gp-10.jpg)
 
-## Slide 4 — Tecnica 1: Role prompting
-**Titolo/numero:** 01 — Role prompting
-**Testo:** Digli chi deve "essere", non solo cosa fare. "Agisci come un avvocato che revisiona un contratto" produce un output diverso — più preciso, con il vocabolario giusto — rispetto a "controlla questo contratto".
-**Esempio:** "Agisci come un editor esperto di riviste tech. Rivedi questo paragrafo per chiarezza e ritmo."
+1. Cover — badge "LIVELLO 2 · RICERCA"
+2. Recap veloce — i 4 elementi base (contesto, compito, formato, vincoli)
+3. Tecnica 01 — Role prompting
+4. Tecnica 02 — Few-shot examples
+5. Tecnica 03 — Chain of thought
+6. Tecnica 04 — Iterazione
+7. Tecnica 05 — Vincoli negativi
+8. Template pronto — Email professionale
+9. Checklist finale (la slide da salvare)
+10. CTA — Segui @ainexagent
 
-## Slide 5 — Tecnica 2: Few-shot examples
-**Titolo/numero:** 02 — Mostra, non solo descrivere
-**Testo:** Se il formato conta, non descriverlo — mostralo. Dai 1-2 esempi dell'output che vuoi. L'agente copia lo schema, non solo le istruzioni.
-**Esempio:** "Scrivi 3 titoli nello stesso stile di questi: 'Il tuo chatbot risponde, un agente agisce' / 'Perché il tuo agente a volte non sa cose ovvie'"
+**Nota cosmetica nota**: le etichette interne tipo "TEMPLATE PRONTO · 06" o "CHECKLIST · 11"
+mantengono la numerazione della versione originale a 15 slide (non più il loro indice reale
+nel post pubblicato) — imperfezione minore, valutare se corregerla nelle prossime guide
+progettando fin da subito per il conteggio finale di slide.
 
-## Slide 6 — Tecnica 3: Chain of thought
-**Titolo/numero:** 03 — Fallo ragionare prima di rispondere
-**Testo:** Per compiti complessi (calcoli, decisioni con più variabili, analisi), chiedi esplicitamente di ragionare passo passo prima di dare la risposta finale. Riduce drasticamente gli errori.
-**Esempio:** "Prima elenca i pro e i contro di ogni opzione, poi dammi la tua raccomandazione finale."
-
-## Slide 7 — Tecnica 4: Iterazione
-**Titolo/numero:** 04 — La prima risposta è una bozza, non il risultato
-**Testo:** Il modo sbagliato di usare l'AI è aspettarsi la risposta perfetta al primo colpo. Il modo giusto: tratta la prima risposta come una bozza, poi correggi con istruzioni specifiche ("troppo lungo", "tono più diretto", "aggiungi un esempio").
-
-## Slide 8 — Tecnica 5: Vincoli negativi
-**Titolo/numero:** 05 — Dire cosa NON fare è potente quanto dire cosa fare
-**Testo:** "Non usare gergo tecnico", "non superare 100 parole", "non usare elenchi puntati" — i vincoli negativi eliminano interi rami di risposte sbagliate che altrimenti dovresti correggere dopo.
-
-## Slide 9 — Template pronto: email professionale
-**Titolo:** Template · Email professionale
-**Box:** "Scrivi un'email [tipo: follow-up / richiesta / scuse] per [destinatario], su [contesto]. Obiettivo: [cosa deve succedere dopo]. Tono [formale/diretto/cordiale]. Massimo [N] righe, senza elenco."
-
-## Slide 10 — Template pronto: riassunto
-**Titolo:** Template · Riassunto di un documento
-**Box:** "Riassumi questo testo in [N] punti chiave, per un lettore che [non ha tempo di leggerlo tutto / non conosce il contesto]. Mantieni i numeri e le date esatte. Non aggiungere opinioni non presenti nel testo."
-
-## Slide 11 — Template pronto: analisi/confronto
-**Titolo:** Template · Confronto tra opzioni
-**Box:** "Confronta [opzione A] e [opzione B] su questi criteri: [criterio 1, criterio 2, criterio 3]. Presenta in tabella. Concludi con una raccomandazione motivata in 2 righe."
-
-## Slide 12 — Template pronto: brainstorming
-**Titolo:** Template · Brainstorming creativo
-**Box:** "Genera 10 idee per [obiettivo]. Target: [pubblico]. Vincoli: [budget/tempo/tono]. Per ognuna, una riga che spiega perché potrebbe funzionare. Evita le idee più ovvie/scontate."
-
-## Slide 13 — L'errore che quasi tutti fanno
-**Titolo:** L'errore più comune, anche con questa guida in mano
-**Testo:** Usare tutte le tecniche insieme, sempre, per ogni task. Non serve. Un messaggio veloce non ha bisogno di role prompting e chain-of-thought — usa la tecnica giusta per la complessità del compito, non tutte per abitudine.
-
-## Slide 14 — Checklist finale (la slide da salvare)
-**Titolo:** Checklist — rileggi prima di ogni prompt importante
-**Testo (7 righe con segno di spunta):**
-☐ Ho dato contesto sufficiente?
-☐ Il compito è specifico, non generico?
-☐ Ho specificato il formato?
-☐ Ho detto cosa NON fare?
-☐ Per task complessi, ho chiesto di ragionare prima?
-☐ Ho dato un esempio, se il formato conta?
-☐ Sono pronto a iterare, non solo ad accettare la prima risposta?
-
-## Slide 15 — CTA
-**Titolo:** Salva questo post. Torna utile ogni volta che scrivi un prompt importante.
-**Box:** SEGUI →
-**Testo piccolo:** @ainexagent
+**Tagliato in questa versione** (contenuto ancora valido per un post "parte 2"):
+"Perché conta" (slide 2 originale), 3 dei 4 template (riassunto, confronto, brainstorming),
+"L'errore che quasi tutti fanno".
 
 ---
 
-## Caption per il post
+## Caption pubblicata
 
 La guida al prompt engineering che avresti voluto avere dal primo giorno. Salvala — non è contenuto che si consuma una volta sola. 📌
 
-Il post "Anatomia di un prompt" (qualche giorno fa) copriva le basi: contesto, compito, formato, vincoli. Questa guida va oltre — 5 tecniche avanzate + 4 template pronti da copiare e adattare, per i task che usi davvero ogni settimana.
+Il post "Anatomia di un prompt" (qualche giorno fa, Livello 1) copriva le basi: contesto, compito, formato, vincoli. Questa guida è Livello 2 — va oltre: 5 tecniche avanzate + un template pronto da copiare, per i task che usi davvero ogni settimana.
 
 Le 5 tecniche, in sintesi:
 → Role prompting: digli chi "essere", non solo cosa fare
@@ -103,13 +62,11 @@ Le 5 tecniche, in sintesi:
 → Iterazione: la prima risposta è una bozza, non il risultato finale
 → Vincoli negativi: dire cosa NON fare elimina interi rami di errori
 
-Più 4 template pronti — email professionale, riassunto documenti, confronto tra opzioni, brainstorming creativo — che puoi copiare e riempire con i tuoi dettagli in 30 secondi.
+Più un template pronto per le email professionali, che puoi copiare e riempire con i tuoi dettagli in 30 secondi.
 
-L'errore più comune, anche dopo aver letto tutto questo? Usare ogni tecnica per ogni task. Non serve — un messaggio veloce non ha bisogno di chain-of-thought. Usa la tecnica giusta per la complessità del compito.
+Nella penultima slide c'è la checklist riassuntiva — quella è la slide da tenere sott'occhio ogni volta che scrivi un prompt che conta davvero.
 
-Nell'ultima slide c'è la checklist riassuntiva — quella è la slide da tenere sott'occhio ogni volta che scrivi un prompt che conta davvero.
-
-Quale di queste 5 tecniche usavi già? Quale proverai oggi? Dimmelo nei commenti.
+Quale di queste 5 tecniche usavi già? Quale proverai oggi? Dimmelo nei commenti — se questo post funziona, arriva anche la parte 2 con altri 3 template (riassunto, confronto, brainstorming).
 
 Segui @ainexagent se vuoi altre guide pratiche come questa. 🧠⚡
 
