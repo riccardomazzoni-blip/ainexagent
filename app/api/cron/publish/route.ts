@@ -37,7 +37,7 @@ export async function GET(request: NextRequest) {
       imageUrls: post.image_urls,
     });
 
-    await markPostPublished(post.id, permalink);
+    await markPostPublished(post.id, mediaId, permalink);
 
     return NextResponse.json({ message: "Pubblicato", postId: post.id, mediaId, permalink });
   } catch (error) {

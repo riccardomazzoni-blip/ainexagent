@@ -60,7 +60,7 @@ App Secret Meta, token Instagram, `CRON_SECRET` e `BLOB_READ_WRITE_TOKEN`
    pip install vercel
    python scripts/upload_to_blob.py content/post-1-chatbot-vs-agente
    ```
-7. **Inserire il post in coda** con gli URL ottenuti al passo 6:
+7. **Inserire il post in coda** con gli URL ottenuti al passo 6 (lo `status` di default è già `'scheduled'`, quello che il cron cerca):
    ```sql
    insert into ig_posts_queue (caption, image_urls, scheduled_for)
    values ('<caption>', array['URL1.jpg', '...'], now());
