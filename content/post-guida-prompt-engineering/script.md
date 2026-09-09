@@ -1,6 +1,6 @@
 # Guida — "La guida completa al prompt engineering" (10 slide — versione pubblicata)
 
-**Stato: ✅ pubblicato**
+**Stato: ✅ pubblicato** — https://www.instagram.com/p/DdElWVcD4NB/ (9 settembre 2026)
 
 Versione finale a 10 slide (tagliata dalla bozza originale a 15, che superava il limite di
 Instagram di 10 slide per carosello — vedi `script-v1-15slide.md` per il contenuto completo,
