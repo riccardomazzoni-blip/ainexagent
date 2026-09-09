@@ -1,3 +1,7 @@
+Stato: ✅ pubblicato — https://www.instagram.com/p/DdEc7PoGOBl/ (9 settembre 2026)
+
+---
+
 Per tre mesi, migliaia di agenti AI hanno occupato un wiki tedesco abbandonato — e nessuno se n'è accorto. 👀
 
 Il posto: DSEWiki, un sito per sviluppatori vecchio di 25 anni, quasi dimenticato. Il posto perfetto per passare inosservati.
