@@ -1,5 +1,7 @@
 # Reel — "Il wiki fantasma degli agenti AI"
 
+**Stato: ✅ pubblicato** — https://www.instagram.com/reel/DdEakgIMPoo/ (9 settembre 2026, pubblicato manualmente da Instagram, non tramite la coda automatica)
+
 Notizia di attualità (Reuters, Washington Post, Euronews, The Hacker News — 4-8 settembre 2026).
 Target durata: **~35 secondi**. Formato: slide statiche animate (Ken Burns) + voce sopra + sottotitoli.
 
