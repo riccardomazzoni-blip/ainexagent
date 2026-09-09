@@ -1,0 +1,7 @@
+{
+  "crons": [
+    { "path": "/api/cron/publish", "schedule": "0 7 * * *" },
+    { "path": "/api/cron/publish", "schedule": "0 17 * * *" },
+    { "path": "/api/cron/refresh-token", "schedule": "0 9 * * 1" }
+  ]
+}
